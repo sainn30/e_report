@@ -54,7 +54,7 @@ if  (@$_SESSION['user']) {
                                                     </div>
                                                     <div class="form-group">
                                                     <?php if ($hasil['gambar_pengaduan'] != "") {
-														echo "<img class='mb-3 img-thumbail col-lg-12' src='foto/" . $hasil['gambar_pengaduan'] . "' width='50' height='100' />";
+														echo "<img class='mb-3 img-thumbail col-lg-12' src='foto/" . $hasil['gambar_pengaduan'] . "'  />";
 													  }else {
 														echo "";
 													  }
